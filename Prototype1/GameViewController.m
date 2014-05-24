@@ -10,10 +10,10 @@
 
 @interface GameViewController ()
 
-//@property (nonatomic) CGFloat x_QWdady;
-//@property (nonatomic) CGFloat y_QWdady;
+@property (nonatomic) CGFloat xSpeed;
+@property (nonatomic) CGFloat ySpeed;
 @property (nonatomic) IBOutlet UIView *QWdadyView;
-
+@property (nonatomic) BOOL QWdadyViewOnScreen;
 @end
 
 BOOL probability(double p) {
@@ -31,6 +31,8 @@ BOOL probability(double p) {
     [super viewDidLoad];
 //    self.x_QWdady = -10;
 //    self.y_QWdady = -10;
+    self.xSpeed = .3;
+    self.ySpeed = 0;
     QWdadyView = [[UIView alloc] initWithFrame:CGRectMake(0, 5, 100, 100)];
     [self.view addSubview:QWdadyView ];
 
@@ -45,10 +47,14 @@ BOOL probability(double p) {
 }
 
 - (void) runQWSelector:(NSTimer *)timer {
-    double xSpeed = .2;
+    double x_old = QWdadyView.center.x;
+    double y_old = QWdadyView.center.y;
+    self.QWdadyViewOnScreen = (x_old<350) && (x_old>0);
+    double xSpeed = 0;
     double ySpeed = 0;
-    double x_new = QWdadyView.center.x+xSpeed;
-    double y_new = QWdadyView.center.y+ySpeed;
+    if (self.QWdadyViewOnScreen) { xSpeed = self.xSpeed; }
+    double x_new = x_old+xSpeed;
+    double y_new = y_old+ySpeed;
     QWdadyView.center= (CGPoint) {x_new , y_new};
     NSLog(@"xNew,yNew = %f %f", x_new,y_new);
 }
@@ -77,7 +83,7 @@ BOOL probability(double p) {
     CGFloat x_start = QWdadyView.center.x;
     CGFloat y_start = QWdadyView.center.y;
     NSLog(@"x,y = %f %f", x_start,y_start);
-    UIView *fallView = [[UIView alloc] initWithFrame:CGRectMake(x_start, y_start, 20, 20)];
+    UIView *fallView = [[UIView alloc] initWithFrame:CGRectMake(x_start-80, y_start, 20, 20)];
     fallView.backgroundColor = [UIColor redColor];
     [UIView animateWithDuration:timeFall animations:^void {
         fallView.center = (CGPoint){x_start , 500};
@@ -86,7 +92,7 @@ BOOL probability(double p) {
 }
 
 - (void) fallerSelector:(NSTimer *)timer  {
-    if (probability(0.6)) {
+    if ((probability(1.1)) && self.QWdadyViewOnScreen ) {
         [self fallDown];
     }
 }
