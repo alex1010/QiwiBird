@@ -26,33 +26,13 @@ BOOL probability(double p) {
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSTimer *timerQWRun = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector: @selector(runnerSelector:) userInfo: nil repeats:YES];
+    NSTimer *timerQWRun = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector: @selector(fallerSelector:) userInfo: nil repeats:YES];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-
-- (void) runningQiWi {
-    NSTimer *timerBonusFall = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector: @selector(fallerSelector:) userInfo: nil repeats:YES];
-    NSInteger timeFall = 10;     //Falling time
-    UIView *runView = [[UIView alloc] initWithFrame:CGRectMake(5, 300, 100, 100)];
-    runView.backgroundColor = [UIColor redColor];
-    [UIView animateWithDuration:timeFall animations:^void {
-        runView.center = (CGPoint){5 , 0};
-    }];
-    [self.view addSubview:runView ];
-    
-}
-
-- (void) runnerSelector:(NSTimer *)timer {
-    if (probability(0.4)) {
-        [self runningQiWi];
-    }
-    
 }
 
 - (void) fallDown {
@@ -70,5 +50,4 @@ BOOL probability(double p) {
         [self fallDown];
     }
 }
-
 @end

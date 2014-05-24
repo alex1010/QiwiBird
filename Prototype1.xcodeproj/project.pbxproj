@@ -21,6 +21,8 @@
 		002217F01930A723003786EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002217EE1930A723003786EA /* InfoPlist.strings */; };
 		002217F21930A723003786EA /* Prototype1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217F11930A723003786EA /* Prototype1Tests.m */; };
 		002217FD1930BAE7003786EA /* ImgFallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217FC1930BAE7003786EA /* ImgFallsViewController.m */; };
+		724D49DD1931134300AADD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724D49DC1931134300AADD71 /* Main.storyboard */; };
+		724D49DF1931135200AADD71 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724D49DE1931135200AADD71 /* Main~ipad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		002217F11930A723003786EA /* Prototype1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype1Tests.m; sourceTree = "<group>"; };
 		002217FB1930BAE6003786EA /* ImgFallsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgFallsViewController.h; sourceTree = "<group>"; };
 		002217FC1930BAE7003786EA /* ImgFallsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgFallsViewController.m; sourceTree = "<group>"; };
+		724D49DC1931134300AADD71 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		724D49DE1931135200AADD71 /* Main~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main~ipad.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				002217FB1930BAE6003786EA /* ImgFallsViewController.h */,
 				002217FC1930BAE7003786EA /* ImgFallsViewController.m */,
 				002217D21930A722003786EA /* CTAppDelegate.h */,
+				724D49DC1931134300AADD71 /* Main.storyboard */,
+				724D49DE1931135200AADD71 /* Main~ipad.storyboard */,
 				002217D31930A722003786EA /* CTAppDelegate.m */,
 				002217DB1930A722003786EA /* GameViewController.h */,
 				002217DC1930A722003786EA /* GameViewController.m */,
@@ -233,6 +239,8 @@
 			files = (
 				002217DF1930A722003786EA /* Images.xcassets in Resources */,
 				002217CE1930A722003786EA /* InfoPlist.strings in Resources */,
+				724D49DD1931134300AADD71 /* Main.storyboard in Resources */,
+				724D49DF1931135200AADD71 /* Main~ipad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
