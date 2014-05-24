@@ -15,13 +15,160 @@
 		002217D41930A722003786EA /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217D31930A722003786EA /* CTAppDelegate.m */; };
 		002217D71930A722003786EA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002217D51930A722003786EA /* Main_iPhone.storyboard */; };
 		002217DA1930A722003786EA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002217D81930A722003786EA /* Main_iPad.storyboard */; };
-		002217DD1930A722003786EA /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217DC1930A722003786EA /* CTViewController.m */; };
+		002217DD1930A722003786EA /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217DC1930A722003786EA /* GameViewController.m */; };
 		002217DF1930A722003786EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002217DE1930A722003786EA /* Images.xcassets */; };
 		002217E61930A723003786EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002217E51930A723003786EA /* XCTest.framework */; };
 		002217E71930A723003786EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002217C31930A722003786EA /* Foundation.framework */; };
 		002217E81930A723003786EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002217C71930A722003786EA /* UIKit.framework */; };
 		002217F01930A723003786EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002217EE1930A723003786EA /* InfoPlist.strings */; };
 		002217F21930A723003786EA /* Prototype1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217F11930A723003786EA /* Prototype1Tests.m */; };
+		002217FD1930BAE7003786EA /* ImgFallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217FC1930BAE7003786EA /* ImgFallsViewController.m */; };
+		0022188C1930D111003786EA /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002217FF1930D111003786EA /* 22.jpg */; };
+		0022188D1930D111003786EA /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218001930D111003786EA /* 23.jpg */; };
+		0022188E1930D111003786EA /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218011930D111003786EA /* 25.jpg */; };
+		0022188F1930D111003786EA /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218021930D111003786EA /* 26.jpg */; };
+		002218901930D111003786EA /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218031930D111003786EA /* 28.jpg */; };
+		002218911930D111003786EA /* 37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218041930D111003786EA /* 37.jpg */; };
+		002218921930D111003786EA /* 45.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218051930D111003786EA /* 45.JPG */; };
+		002218931930D111003786EA /* 55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218061930D111003786EA /* 55.jpg */; };
+		002218941930D111003786EA /* 91.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218071930D111003786EA /* 91.jpg */; };
+		002218951930D111003786EA /* avto4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218081930D111003786EA /* avto4.jpg */; };
+		002218961930D111003786EA /* bank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218091930D111003786EA /* bank.jpg */; };
+		002218971930D111003786EA /* banner_23February.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022180A1930D111003786EA /* banner_23February.jpg */; };
+		002218981930D111003786EA /* bezopasnost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022180B1930D111003786EA /* bezopasnost.jpg */; };
+		002218991930D111003786EA /* buhgalter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022180C1930D111003786EA /* buhgalter.jpg */; };
+		0022189A1930D111003786EA /* cinema3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022180D1930D111003786EA /* cinema3.jpg */; };
+		0022189B1930D111003786EA /* cinema4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022180E1930D111003786EA /* cinema4.jpg */; };
+		0022189C1930D111003786EA /* football-m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022180F1930D111003786EA /* football-m.jpg */; };
+		0022189D1930D111003786EA /* kiwi_OK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218101930D111003786EA /* kiwi_OK.jpg */; };
+		0022189E1930D111003786EA /* medik.png in Resources */ = {isa = PBXBuildFile; fileRef = 002218111930D111003786EA /* medik.png */; };
+		0022189F1930D111003786EA /* prodavec.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218121930D111003786EA /* prodavec.jpg */; };
+		002218A01930D111003786EA /* ptica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218131930D111003786EA /* ptica.jpg */; };
+		002218A11930D111003786EA /* ptica2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218141930D111003786EA /* ptica2.jpg */; };
+		002218A21930D111003786EA /* rc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218151930D111003786EA /* rc.jpg */; };
+		002218A31930D111003786EA /* restoran3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218161930D111003786EA /* restoran3.jpg */; };
+		002218A41930D111003786EA /* restoran4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218171930D111003786EA /* restoran4.jpg */; };
+		002218A51930D111003786EA /* sd6_QIWI(КИВИ).png in Resources */ = {isa = PBXBuildFile; fileRef = 002218181930D111003786EA /* sd6_QIWI(КИВИ).png */; };
+		002218A61930D111003786EA /* sinema.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218191930D111003786EA /* sinema.jpg */; };
+		002218A71930D111003786EA /* sinema123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022181A1930D111003786EA /* sinema123.jpg */; };
+		002218A81930D111003786EA /* s_bomboi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022181B1930D111003786EA /* s_bomboi.jpg */; };
+		002218A91930D111003786EA /* s_egednevnikom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022181C1930D111003786EA /* s_egednevnikom.jpg */; };
+		002218AA1930D111003786EA /* s_globusom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022181D1930D111003786EA /* s_globusom.jpg */; };
+		002218AB1930D111003786EA /* s_kvadratami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022181E1930D111003786EA /* s_kvadratami.jpg */; };
+		002218AC1930D111003786EA /* s_leikoi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022181F1930D111003786EA /* s_leikoi.jpg */; };
+		002218AD1930D111003786EA /* s_podarkom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218201930D111003786EA /* s_podarkom.jpg */; };
+		002218AE1930D111003786EA /* s_terminalom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218211930D111003786EA /* s_terminalom.jpg */; };
+		002218AF1930D111003786EA /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 002218221930D111003786EA /* Thumbs.db */; };
+		002218B01930D111003786EA /* птичка 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218231930D111003786EA /* птичка 1.jpg */; };
+		002218B11930D111003786EA /* птичка 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218241930D111003786EA /* птичка 2.jpg */; };
+		002218B21930D111003786EA /* птичка 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218251930D111003786EA /* птичка 3.jpg */; };
+		002218B31930D111003786EA /* птичка 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218261930D111003786EA /* птичка 4.jpg */; };
+		002218B41930D111003786EA /* птичка 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218271930D111003786EA /* птичка 5.jpg */; };
+		002218B51930D111003786EA /* 1 Без фона.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218291930D111003786EA /* 1 Без фона.gif */; };
+		002218B61930D111003786EA /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022182A1930D111003786EA /* 1.jpg */; };
+		002218B71930D111003786EA /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022182B1930D111003786EA /* 10.jpg */; };
+		002218B81930D111003786EA /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022182C1930D111003786EA /* 11.jpg */; };
+		002218B91930D111003786EA /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022182D1930D111003786EA /* 12.jpg */; };
+		002218BA1930D111003786EA /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022182E1930D111003786EA /* 13.jpg */; };
+		002218BB1930D111003786EA /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022182F1930D111003786EA /* 14.jpg */; };
+		002218BC1930D111003786EA /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218301930D111003786EA /* 15.jpg */; };
+		002218BD1930D111003786EA /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218311930D111003786EA /* 16.jpg */; };
+		002218BE1930D111003786EA /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218321930D111003786EA /* 17.jpg */; };
+		002218BF1930D111003786EA /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 002218331930D111003786EA /* 18.png */; };
+		002218C01930D111003786EA /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218341930D111003786EA /* 19.jpg */; };
+		002218C11930D111003786EA /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218351930D111003786EA /* 2.jpg */; };
+		002218C21930D111003786EA /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218361930D111003786EA /* 20.jpg */; };
+		002218C31930D111003786EA /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218371930D111003786EA /* 21.jpg */; };
+		002218C41930D111003786EA /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218381930D111003786EA /* 22.jpg */; };
+		002218C51930D111003786EA /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218391930D111003786EA /* 23.jpg */; };
+		002218C61930D111003786EA /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022183A1930D111003786EA /* 24.jpg */; };
+		002218C71930D111003786EA /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022183B1930D111003786EA /* 25.jpg */; };
+		002218C81930D111003786EA /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022183C1930D111003786EA /* 26.jpg */; };
+		002218C91930D111003786EA /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022183D1930D111003786EA /* 28.jpg */; };
+		002218CA1930D111003786EA /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022183E1930D111003786EA /* 3.jpg */; };
+		002218CB1930D111003786EA /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022183F1930D111003786EA /* 4.jpg */; };
+		002218CC1930D111003786EA /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218401930D111003786EA /* 5.jpg */; };
+		002218CD1930D111003786EA /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218411930D111003786EA /* 6.jpg */; };
+		002218CE1930D111003786EA /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218421930D111003786EA /* 7.jpg */; };
+		002218CF1930D111003786EA /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218431930D111003786EA /* 8.jpg */; };
+		002218D01930D111003786EA /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218441930D111003786EA /* 9.jpg */; };
+		002218D11930D111003786EA /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 002218451930D111003786EA /* Thumbs.db */; };
+		002218D21930D111003786EA /* _thumb_87947.png in Resources */ = {isa = PBXBuildFile; fileRef = 002218461930D111003786EA /* _thumb_87947.png */; };
+		002218D31930D111003786EA /* 0_о - копия.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218481930D111003786EA /* 0_о - копия.JPG */; };
+		002218D41930D111003786EA /* 0_о.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218491930D111003786EA /* 0_о.JPG */; };
+		002218D51930D111003786EA /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022184A1930D111003786EA /* 1.gif */; };
+		002218D61930D111003786EA /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022184B1930D111003786EA /* 2.gif */; };
+		002218D71930D111003786EA /* 2b_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022184C1930D111003786EA /* 2b_1.gif */; };
+		002218D81930D111003786EA /* 2b_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022184D1930D111003786EA /* 2b_1.jpg */; };
+		002218D91930D111003786EA /* 2_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022184E1930D111003786EA /* 2_1.jpg */; };
+		002218DA1930D111003786EA /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022184F1930D111003786EA /* 3.gif */; };
+		002218DB1930D111003786EA /* 3b_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218501930D111003786EA /* 3b_2.gif */; };
+		002218DC1930D111003786EA /* 3b_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218511930D111003786EA /* 3b_2.jpg */; };
+		002218DD1930D111003786EA /* 3q.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218521930D111003786EA /* 3q.gif */; };
+		002218DE1930D111003786EA /* 3q2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218531930D111003786EA /* 3q2.gif */; };
+		002218DF1930D111003786EA /* 3q3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218541930D111003786EA /* 3q3.gif */; };
+		002218E01930D111003786EA /* 3_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218551930D111003786EA /* 3_2.gif */; };
+		002218E11930D111003786EA /* 3_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218561930D111003786EA /* 3_2.jpg */; };
+		002218E21930D111003786EA /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218571930D111003786EA /* 4.gif */; };
+		002218E31930D111003786EA /* 4a2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218581930D111003786EA /* 4a2.gif */; };
+		002218E41930D111003786EA /* 4a2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218591930D111003786EA /* 4a2.jpg */; };
+		002218E51930D111003786EA /* 4b1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022185A1930D111003786EA /* 4b1.jpg */; };
+		002218E61930D111003786EA /* 545.png in Resources */ = {isa = PBXBuildFile; fileRef = 0022185B1930D111003786EA /* 545.png */; };
+		002218E71930D111003786EA /* 67.png in Resources */ = {isa = PBXBuildFile; fileRef = 0022185C1930D111003786EA /* 67.png */; };
+		002218E81930D111003786EA /* dop_3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022185D1930D111003786EA /* dop_3.gif */; };
+		002218E91930D111003786EA /* dop_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022185E1930D111003786EA /* dop_3.jpg */; };
+		002218EA1930D111003786EA /* kiwi_OK.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022185F1930D111003786EA /* kiwi_OK.gif */; };
+		002218EB1930D111003786EA /* PANAMA.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218601930D111003786EA /* PANAMA.gif */; };
+		002218EC1930D111003786EA /* start.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218611930D111003786EA /* start.gif */; };
+		002218ED1930D111003786EA /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218621930D111003786EA /* start.jpg */; };
+		002218EE1930D111003786EA /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 002218631930D111003786EA /* Thumbs.db */; };
+		002218EF1930D111003786EA /* V2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218641930D111003786EA /* V2.gif */; };
+		002218F01930D111003786EA /* V2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218651930D111003786EA /* V2.jpg */; };
+		002218F11930D111003786EA /* v_korobke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218661930D111003786EA /* v_korobke.jpg */; };
+		002218F21930D111003786EA /* v_shapke1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218671930D111003786EA /* v_shapke1.gif */; };
+		002218F31930D111003786EA /* v_shapke2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218681930D111003786EA /* v_shapke2.gif */; };
+		002218F41930D111003786EA /* v_shapke3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218691930D111003786EA /* v_shapke3.gif */; };
+		002218F51930D111003786EA /* v_shapke4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022186A1930D111003786EA /* v_shapke4.gif */; };
+		002218F61930D111003786EA /* v_shapke5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022186B1930D111003786EA /* v_shapke5.gif */; };
+		002218F71930D111003786EA /* v_shapke6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022186C1930D111003786EA /* v_shapke6.gif */; };
+		002218F81930D111003786EA /* v_shapke7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022186D1930D111003786EA /* v_shapke7.gif */; };
+		002218F91930D111003786EA /* Копия 3b_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022186E1930D111003786EA /* Копия 3b_2.jpg */; };
+		002218FA1930D111003786EA /* птица 20.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0022186F1930D111003786EA /* птица 20.JPG */; };
+		002218FB1930D111003786EA /* птица 21.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218701930D111003786EA /* птица 21.JPG */; };
+		002218FC1930D111003786EA /* птица 22.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218711930D111003786EA /* птица 22.JPG */; };
+		002218FD1930D111003786EA /* птица 23.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218721930D111003786EA /* птица 23.JPG */; };
+		002218FE1930D111003786EA /* птица 24.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218731930D111003786EA /* птица 24.JPG */; };
+		002218FF1930D111003786EA /* птица 25.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218741930D111003786EA /* птица 25.JPG */; };
+		002219001930D111003786EA /* птица 26.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218751930D111003786EA /* птица 26.JPG */; };
+		002219011930D111003786EA /* птица 27.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218761930D111003786EA /* птица 27.JPG */; };
+		002219021930D111003786EA /* птица 28.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218771930D111003786EA /* птица 28.JPG */; };
+		002219031930D111003786EA /* птица 29.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218781930D111003786EA /* птица 29.JPG */; };
+		002219041930D111003786EA /* птица 30.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218791930D111003786EA /* птица 30.JPG */; };
+		002219051930D111003786EA /* птица 31.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0022187A1930D111003786EA /* птица 31.JPG */; };
+		002219061930D111003786EA /* птица 33.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0022187B1930D111003786EA /* птица 33.JPG */; };
+		002219071930D111003786EA /* Птица Киви 01.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0022187C1930D111003786EA /* Птица Киви 01.JPG */; };
+		002219081930D111003786EA /* Птица Киви 02 без фона.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0022187D1930D111003786EA /* Птица Киви 02 без фона.gif */; };
+		002219091930D111003786EA /* Птица Киви 02.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0022187E1930D111003786EA /* Птица Киви 02.JPG */; };
+		0022190A1930D111003786EA /* Птица Киви 03.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0022187F1930D111003786EA /* Птица Киви 03.JPG */; };
+		0022190B1930D111003786EA /* Птица Киви 04.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 002218801930D111003786EA /* Птица Киви 04.JPG */; };
+		0022190C1930D111003786EA /* Птица Киви 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218811930D111003786EA /* Птица Киви 05.jpg */; };
+		0022190D1930D111003786EA /* Птица Киви 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218821930D111003786EA /* Птица Киви 06.jpg */; };
+		0022190E1930D111003786EA /* Птица Киви 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218831930D111003786EA /* Птица Киви 07.jpg */; };
+		0022190F1930D111003786EA /* Птица Киви 08.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218841930D111003786EA /* Птица Киви 08.gif */; };
+		002219101930D111003786EA /* Птица Киви 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218851930D111003786EA /* Птица Киви 08.jpg */; };
+		002219111930D111003786EA /* Птица Киви 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218861930D111003786EA /* Птица Киви 09.jpg */; };
+		002219121930D111003786EA /* Птица Киви 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 002218871930D111003786EA /* Птица Киви 10.gif */; };
+		002219131930D111003786EA /* Птица Киви 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218881930D111003786EA /* Птица Киви 10.jpg */; };
+		002219141930D111003786EA /* Птица Киви 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 002218891930D111003786EA /* Птица Киви 11.jpg */; };
+		002219151930D111003786EA /* Птица Киви 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022188A1930D111003786EA /* Птица Киви 12.jpg */; };
+		002219161930D111003786EA /* Птица Киви 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0022188B1930D111003786EA /* Птица Киви 13.jpg */; };
+		0022191F1930D134003786EA /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 002219181930D134003786EA /* Apple.png */; };
+		002219201930D134003786EA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 002219191930D134003786EA /* bg.png */; };
+		002219211930D134003786EA /* BirdDad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0022191A1930D134003786EA /* BirdDad.png */; };
+		002219221930D134003786EA /* BirdMom.png in Resources */ = {isa = PBXBuildFile; fileRef = 0022191B1930D134003786EA /* BirdMom.png */; };
+		002219231930D134003786EA /* BirdSmallFat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0022191C1930D134003786EA /* BirdSmallFat.png */; };
+		002219241930D134003786EA /* BirdSmallNorm.png in Resources */ = {isa = PBXBuildFile; fileRef = 0022191D1930D134003786EA /* BirdSmallNorm.png */; };
+		002219251930D134003786EA /* BirdSmallThin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0022191E1930D134003786EA /* BirdSmallThin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +194,162 @@
 		002217D31930A722003786EA /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
 		002217D61930A722003786EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		002217D91930A722003786EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		002217DB1930A722003786EA /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
-		002217DC1930A722003786EA /* CTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+		002217DB1930A722003786EA /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		002217DC1930A722003786EA /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		002217DE1930A722003786EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		002217E41930A723003786EA /* Prototype1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		002217E51930A723003786EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		002217ED1930A723003786EA /* Prototype1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prototype1Tests-Info.plist"; sourceTree = "<group>"; };
 		002217EF1930A723003786EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		002217F11930A723003786EA /* Prototype1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype1Tests.m; sourceTree = "<group>"; };
+		002217FB1930BAE6003786EA /* ImgFallsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgFallsViewController.h; sourceTree = "<group>"; };
+		002217FC1930BAE7003786EA /* ImgFallsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgFallsViewController.m; sourceTree = "<group>"; };
+		002217FF1930D111003786EA /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		002218001930D111003786EA /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		002218011930D111003786EA /* 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpg; sourceTree = "<group>"; };
+		002218021930D111003786EA /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
+		002218031930D111003786EA /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
+		002218041930D111003786EA /* 37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 37.jpg; sourceTree = "<group>"; };
+		002218051930D111003786EA /* 45.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 45.JPG; sourceTree = "<group>"; };
+		002218061930D111003786EA /* 55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 55.jpg; sourceTree = "<group>"; };
+		002218071930D111003786EA /* 91.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 91.jpg; sourceTree = "<group>"; };
+		002218081930D111003786EA /* avto4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avto4.jpg; sourceTree = "<group>"; };
+		002218091930D111003786EA /* bank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bank.jpg; sourceTree = "<group>"; };
+		0022180A1930D111003786EA /* banner_23February.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_23February.jpg; sourceTree = "<group>"; };
+		0022180B1930D111003786EA /* bezopasnost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bezopasnost.jpg; sourceTree = "<group>"; };
+		0022180C1930D111003786EA /* buhgalter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buhgalter.jpg; sourceTree = "<group>"; };
+		0022180D1930D111003786EA /* cinema3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cinema3.jpg; sourceTree = "<group>"; };
+		0022180E1930D111003786EA /* cinema4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cinema4.jpg; sourceTree = "<group>"; };
+		0022180F1930D111003786EA /* football-m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "football-m.jpg"; sourceTree = "<group>"; };
+		002218101930D111003786EA /* kiwi_OK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiwi_OK.jpg; sourceTree = "<group>"; };
+		002218111930D111003786EA /* medik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medik.png; sourceTree = "<group>"; };
+		002218121930D111003786EA /* prodavec.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prodavec.jpg; sourceTree = "<group>"; };
+		002218131930D111003786EA /* ptica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ptica.jpg; sourceTree = "<group>"; };
+		002218141930D111003786EA /* ptica2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ptica2.jpg; sourceTree = "<group>"; };
+		002218151930D111003786EA /* rc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rc.jpg; sourceTree = "<group>"; };
+		002218161930D111003786EA /* restoran3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = restoran3.jpg; sourceTree = "<group>"; };
+		002218171930D111003786EA /* restoran4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = restoran4.jpg; sourceTree = "<group>"; };
+		002218181930D111003786EA /* sd6_QIWI(КИВИ).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd6_QIWI(КИВИ).png"; sourceTree = "<group>"; };
+		002218191930D111003786EA /* sinema.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinema.jpg; sourceTree = "<group>"; };
+		0022181A1930D111003786EA /* sinema123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sinema123.jpg; sourceTree = "<group>"; };
+		0022181B1930D111003786EA /* s_bomboi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_bomboi.jpg; sourceTree = "<group>"; };
+		0022181C1930D111003786EA /* s_egednevnikom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_egednevnikom.jpg; sourceTree = "<group>"; };
+		0022181D1930D111003786EA /* s_globusom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_globusom.jpg; sourceTree = "<group>"; };
+		0022181E1930D111003786EA /* s_kvadratami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_kvadratami.jpg; sourceTree = "<group>"; };
+		0022181F1930D111003786EA /* s_leikoi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_leikoi.jpg; sourceTree = "<group>"; };
+		002218201930D111003786EA /* s_podarkom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_podarkom.jpg; sourceTree = "<group>"; };
+		002218211930D111003786EA /* s_terminalom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_terminalom.jpg; sourceTree = "<group>"; };
+		002218221930D111003786EA /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		002218231930D111003786EA /* птичка 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птичка 1.jpg"; sourceTree = "<group>"; };
+		002218241930D111003786EA /* птичка 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птичка 2.jpg"; sourceTree = "<group>"; };
+		002218251930D111003786EA /* птичка 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птичка 3.jpg"; sourceTree = "<group>"; };
+		002218261930D111003786EA /* птичка 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птичка 4.jpg"; sourceTree = "<group>"; };
+		002218271930D111003786EA /* птичка 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птичка 5.jpg"; sourceTree = "<group>"; };
+		002218291930D111003786EA /* 1 Без фона.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "1 Без фона.gif"; sourceTree = "<group>"; };
+		0022182A1930D111003786EA /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0022182B1930D111003786EA /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		0022182C1930D111003786EA /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		0022182D1930D111003786EA /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		0022182E1930D111003786EA /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		0022182F1930D111003786EA /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		002218301930D111003786EA /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		002218311930D111003786EA /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		002218321930D111003786EA /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		002218331930D111003786EA /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		002218341930D111003786EA /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		002218351930D111003786EA /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		002218361930D111003786EA /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		002218371930D111003786EA /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		002218381930D111003786EA /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		002218391930D111003786EA /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		0022183A1930D111003786EA /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+		0022183B1930D111003786EA /* 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpg; sourceTree = "<group>"; };
+		0022183C1930D111003786EA /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
+		0022183D1930D111003786EA /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
+		0022183E1930D111003786EA /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		0022183F1930D111003786EA /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		002218401930D111003786EA /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		002218411930D111003786EA /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		002218421930D111003786EA /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		002218431930D111003786EA /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		002218441930D111003786EA /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		002218451930D111003786EA /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		002218461930D111003786EA /* _thumb_87947.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _thumb_87947.png; sourceTree = "<group>"; };
+		002218481930D111003786EA /* 0_о - копия.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0_о - копия.JPG"; sourceTree = "<group>"; };
+		002218491930D111003786EA /* 0_о.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0_о.JPG"; sourceTree = "<group>"; };
+		0022184A1930D111003786EA /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		0022184B1930D111003786EA /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		0022184C1930D111003786EA /* 2b_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2b_1.gif; sourceTree = "<group>"; };
+		0022184D1930D111003786EA /* 2b_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2b_1.jpg; sourceTree = "<group>"; };
+		0022184E1930D111003786EA /* 2_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_1.jpg; sourceTree = "<group>"; };
+		0022184F1930D111003786EA /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		002218501930D111003786EA /* 3b_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3b_2.gif; sourceTree = "<group>"; };
+		002218511930D111003786EA /* 3b_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3b_2.jpg; sourceTree = "<group>"; };
+		002218521930D111003786EA /* 3q.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3q.gif; sourceTree = "<group>"; };
+		002218531930D111003786EA /* 3q2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3q2.gif; sourceTree = "<group>"; };
+		002218541930D111003786EA /* 3q3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3q3.gif; sourceTree = "<group>"; };
+		002218551930D111003786EA /* 3_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3_2.gif; sourceTree = "<group>"; };
+		002218561930D111003786EA /* 3_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_2.jpg; sourceTree = "<group>"; };
+		002218571930D111003786EA /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		002218581930D111003786EA /* 4a2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4a2.gif; sourceTree = "<group>"; };
+		002218591930D111003786EA /* 4a2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4a2.jpg; sourceTree = "<group>"; };
+		0022185A1930D111003786EA /* 4b1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4b1.jpg; sourceTree = "<group>"; };
+		0022185B1930D111003786EA /* 545.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 545.png; sourceTree = "<group>"; };
+		0022185C1930D111003786EA /* 67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 67.png; sourceTree = "<group>"; };
+		0022185D1930D111003786EA /* dop_3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dop_3.gif; sourceTree = "<group>"; };
+		0022185E1930D111003786EA /* dop_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dop_3.jpg; sourceTree = "<group>"; };
+		0022185F1930D111003786EA /* kiwi_OK.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kiwi_OK.gif; sourceTree = "<group>"; };
+		002218601930D111003786EA /* PANAMA.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PANAMA.gif; sourceTree = "<group>"; };
+		002218611930D111003786EA /* start.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = start.gif; sourceTree = "<group>"; };
+		002218621930D111003786EA /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
+		002218631930D111003786EA /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		002218641930D111003786EA /* V2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = V2.gif; sourceTree = "<group>"; };
+		002218651930D111003786EA /* V2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = V2.jpg; sourceTree = "<group>"; };
+		002218661930D111003786EA /* v_korobke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = v_korobke.jpg; sourceTree = "<group>"; };
+		002218671930D111003786EA /* v_shapke1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v_shapke1.gif; sourceTree = "<group>"; };
+		002218681930D111003786EA /* v_shapke2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v_shapke2.gif; sourceTree = "<group>"; };
+		002218691930D111003786EA /* v_shapke3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v_shapke3.gif; sourceTree = "<group>"; };
+		0022186A1930D111003786EA /* v_shapke4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v_shapke4.gif; sourceTree = "<group>"; };
+		0022186B1930D111003786EA /* v_shapke5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v_shapke5.gif; sourceTree = "<group>"; };
+		0022186C1930D111003786EA /* v_shapke6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v_shapke6.gif; sourceTree = "<group>"; };
+		0022186D1930D111003786EA /* v_shapke7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v_shapke7.gif; sourceTree = "<group>"; };
+		0022186E1930D111003786EA /* Копия 3b_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Копия 3b_2.jpg"; sourceTree = "<group>"; };
+		0022186F1930D111003786EA /* птица 20.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 20.JPG"; sourceTree = "<group>"; };
+		002218701930D111003786EA /* птица 21.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 21.JPG"; sourceTree = "<group>"; };
+		002218711930D111003786EA /* птица 22.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 22.JPG"; sourceTree = "<group>"; };
+		002218721930D111003786EA /* птица 23.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 23.JPG"; sourceTree = "<group>"; };
+		002218731930D111003786EA /* птица 24.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 24.JPG"; sourceTree = "<group>"; };
+		002218741930D111003786EA /* птица 25.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 25.JPG"; sourceTree = "<group>"; };
+		002218751930D111003786EA /* птица 26.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 26.JPG"; sourceTree = "<group>"; };
+		002218761930D111003786EA /* птица 27.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 27.JPG"; sourceTree = "<group>"; };
+		002218771930D111003786EA /* птица 28.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 28.JPG"; sourceTree = "<group>"; };
+		002218781930D111003786EA /* птица 29.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 29.JPG"; sourceTree = "<group>"; };
+		002218791930D111003786EA /* птица 30.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 30.JPG"; sourceTree = "<group>"; };
+		0022187A1930D111003786EA /* птица 31.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 31.JPG"; sourceTree = "<group>"; };
+		0022187B1930D111003786EA /* птица 33.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "птица 33.JPG"; sourceTree = "<group>"; };
+		0022187C1930D111003786EA /* Птица Киви 01.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 01.JPG"; sourceTree = "<group>"; };
+		0022187D1930D111003786EA /* Птица Киви 02 без фона.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Птица Киви 02 без фона.gif"; sourceTree = "<group>"; };
+		0022187E1930D111003786EA /* Птица Киви 02.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 02.JPG"; sourceTree = "<group>"; };
+		0022187F1930D111003786EA /* Птица Киви 03.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 03.JPG"; sourceTree = "<group>"; };
+		002218801930D111003786EA /* Птица Киви 04.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 04.JPG"; sourceTree = "<group>"; };
+		002218811930D111003786EA /* Птица Киви 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 05.jpg"; sourceTree = "<group>"; };
+		002218821930D111003786EA /* Птица Киви 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 06.jpg"; sourceTree = "<group>"; };
+		002218831930D111003786EA /* Птица Киви 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 07.jpg"; sourceTree = "<group>"; };
+		002218841930D111003786EA /* Птица Киви 08.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Птица Киви 08.gif"; sourceTree = "<group>"; };
+		002218851930D111003786EA /* Птица Киви 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 08.jpg"; sourceTree = "<group>"; };
+		002218861930D111003786EA /* Птица Киви 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 09.jpg"; sourceTree = "<group>"; };
+		002218871930D111003786EA /* Птица Киви 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Птица Киви 10.gif"; sourceTree = "<group>"; };
+		002218881930D111003786EA /* Птица Киви 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 10.jpg"; sourceTree = "<group>"; };
+		002218891930D111003786EA /* Птица Киви 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 11.jpg"; sourceTree = "<group>"; };
+		0022188A1930D111003786EA /* Птица Киви 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 12.jpg"; sourceTree = "<group>"; };
+		0022188B1930D111003786EA /* Птица Киви 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Птица Киви 13.jpg"; sourceTree = "<group>"; };
+		002219181930D134003786EA /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		002219191930D134003786EA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0022191A1930D134003786EA /* BirdDad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdDad.png; sourceTree = "<group>"; };
+		0022191B1930D134003786EA /* BirdMom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdMom.png; sourceTree = "<group>"; };
+		0022191C1930D134003786EA /* BirdSmallFat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdSmallFat.png; sourceTree = "<group>"; };
+		0022191D1930D134003786EA /* BirdSmallNorm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdSmallNorm.png; sourceTree = "<group>"; };
+		0022191E1930D134003786EA /* BirdSmallThin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdSmallThin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +383,8 @@
 				002217EB1930A723003786EA /* Prototype1Tests */,
 				002217C21930A722003786EA /* Frameworks */,
 				002217C11930A722003786EA /* Products */,
+				002219171930D134003786EA /* Images */,
+				002217FE1930D111003786EA /* Для презентаций */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,12 +411,14 @@
 		002217C91930A722003786EA /* Prototype1 */ = {
 			isa = PBXGroup;
 			children = (
+				002217FB1930BAE6003786EA /* ImgFallsViewController.h */,
+				002217FC1930BAE7003786EA /* ImgFallsViewController.m */,
 				002217D21930A722003786EA /* CTAppDelegate.h */,
 				002217D31930A722003786EA /* CTAppDelegate.m */,
 				002217D51930A722003786EA /* Main_iPhone.storyboard */,
 				002217D81930A722003786EA /* Main_iPad.storyboard */,
-				002217DB1930A722003786EA /* CTViewController.h */,
-				002217DC1930A722003786EA /* CTViewController.m */,
+				002217DB1930A722003786EA /* GameViewController.h */,
+				002217DC1930A722003786EA /* GameViewController.m */,
 				002217DE1930A722003786EA /* Images.xcassets */,
 				002217CA1930A722003786EA /* Supporting Files */,
 			);
@@ -153,6 +452,184 @@
 				002217EE1930A723003786EA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002217FE1930D111003786EA /* Для презентаций */ = {
+			isa = PBXGroup;
+			children = (
+				002217FF1930D111003786EA /* 22.jpg */,
+				002218001930D111003786EA /* 23.jpg */,
+				002218011930D111003786EA /* 25.jpg */,
+				002218021930D111003786EA /* 26.jpg */,
+				002218031930D111003786EA /* 28.jpg */,
+				002218041930D111003786EA /* 37.jpg */,
+				002218051930D111003786EA /* 45.JPG */,
+				002218061930D111003786EA /* 55.jpg */,
+				002218071930D111003786EA /* 91.jpg */,
+				002218081930D111003786EA /* avto4.jpg */,
+				002218091930D111003786EA /* bank.jpg */,
+				0022180A1930D111003786EA /* banner_23February.jpg */,
+				0022180B1930D111003786EA /* bezopasnost.jpg */,
+				0022180C1930D111003786EA /* buhgalter.jpg */,
+				0022180D1930D111003786EA /* cinema3.jpg */,
+				0022180E1930D111003786EA /* cinema4.jpg */,
+				0022180F1930D111003786EA /* football-m.jpg */,
+				002218101930D111003786EA /* kiwi_OK.jpg */,
+				002218111930D111003786EA /* medik.png */,
+				002218121930D111003786EA /* prodavec.jpg */,
+				002218131930D111003786EA /* ptica.jpg */,
+				002218141930D111003786EA /* ptica2.jpg */,
+				002218151930D111003786EA /* rc.jpg */,
+				002218161930D111003786EA /* restoran3.jpg */,
+				002218171930D111003786EA /* restoran4.jpg */,
+				002218181930D111003786EA /* sd6_QIWI(КИВИ).png */,
+				002218191930D111003786EA /* sinema.jpg */,
+				0022181A1930D111003786EA /* sinema123.jpg */,
+				0022181B1930D111003786EA /* s_bomboi.jpg */,
+				0022181C1930D111003786EA /* s_egednevnikom.jpg */,
+				0022181D1930D111003786EA /* s_globusom.jpg */,
+				0022181E1930D111003786EA /* s_kvadratami.jpg */,
+				0022181F1930D111003786EA /* s_leikoi.jpg */,
+				002218201930D111003786EA /* s_podarkom.jpg */,
+				002218211930D111003786EA /* s_terminalom.jpg */,
+				002218221930D111003786EA /* Thumbs.db */,
+				002218231930D111003786EA /* птичка 1.jpg */,
+				002218241930D111003786EA /* птичка 2.jpg */,
+				002218251930D111003786EA /* птичка 3.jpg */,
+				002218261930D111003786EA /* птичка 4.jpg */,
+				002218271930D111003786EA /* птичка 5.jpg */,
+				002218281930D111003786EA /* qiwi */,
+				002218471930D111003786EA /* плоские птицы */,
+			);
+			name = "Для презентаций";
+			path = "../../../../../Volumes/HENDILIN/Для презентаций";
+			sourceTree = "<group>";
+		};
+		002218281930D111003786EA /* qiwi */ = {
+			isa = PBXGroup;
+			children = (
+				002218291930D111003786EA /* 1 Без фона.gif */,
+				0022182A1930D111003786EA /* 1.jpg */,
+				0022182B1930D111003786EA /* 10.jpg */,
+				0022182C1930D111003786EA /* 11.jpg */,
+				0022182D1930D111003786EA /* 12.jpg */,
+				0022182E1930D111003786EA /* 13.jpg */,
+				0022182F1930D111003786EA /* 14.jpg */,
+				002218301930D111003786EA /* 15.jpg */,
+				002218311930D111003786EA /* 16.jpg */,
+				002218321930D111003786EA /* 17.jpg */,
+				002218331930D111003786EA /* 18.png */,
+				002218341930D111003786EA /* 19.jpg */,
+				002218351930D111003786EA /* 2.jpg */,
+				002218361930D111003786EA /* 20.jpg */,
+				002218371930D111003786EA /* 21.jpg */,
+				002218381930D111003786EA /* 22.jpg */,
+				002218391930D111003786EA /* 23.jpg */,
+				0022183A1930D111003786EA /* 24.jpg */,
+				0022183B1930D111003786EA /* 25.jpg */,
+				0022183C1930D111003786EA /* 26.jpg */,
+				0022183D1930D111003786EA /* 28.jpg */,
+				0022183E1930D111003786EA /* 3.jpg */,
+				0022183F1930D111003786EA /* 4.jpg */,
+				002218401930D111003786EA /* 5.jpg */,
+				002218411930D111003786EA /* 6.jpg */,
+				002218421930D111003786EA /* 7.jpg */,
+				002218431930D111003786EA /* 8.jpg */,
+				002218441930D111003786EA /* 9.jpg */,
+				002218451930D111003786EA /* Thumbs.db */,
+				002218461930D111003786EA /* _thumb_87947.png */,
+			);
+			path = qiwi;
+			sourceTree = "<group>";
+		};
+		002218471930D111003786EA /* плоские птицы */ = {
+			isa = PBXGroup;
+			children = (
+				002218481930D111003786EA /* 0_о - копия.JPG */,
+				002218491930D111003786EA /* 0_о.JPG */,
+				0022184A1930D111003786EA /* 1.gif */,
+				0022184B1930D111003786EA /* 2.gif */,
+				0022184C1930D111003786EA /* 2b_1.gif */,
+				0022184D1930D111003786EA /* 2b_1.jpg */,
+				0022184E1930D111003786EA /* 2_1.jpg */,
+				0022184F1930D111003786EA /* 3.gif */,
+				002218501930D111003786EA /* 3b_2.gif */,
+				002218511930D111003786EA /* 3b_2.jpg */,
+				002218521930D111003786EA /* 3q.gif */,
+				002218531930D111003786EA /* 3q2.gif */,
+				002218541930D111003786EA /* 3q3.gif */,
+				002218551930D111003786EA /* 3_2.gif */,
+				002218561930D111003786EA /* 3_2.jpg */,
+				002218571930D111003786EA /* 4.gif */,
+				002218581930D111003786EA /* 4a2.gif */,
+				002218591930D111003786EA /* 4a2.jpg */,
+				0022185A1930D111003786EA /* 4b1.jpg */,
+				0022185B1930D111003786EA /* 545.png */,
+				0022185C1930D111003786EA /* 67.png */,
+				0022185D1930D111003786EA /* dop_3.gif */,
+				0022185E1930D111003786EA /* dop_3.jpg */,
+				0022185F1930D111003786EA /* kiwi_OK.gif */,
+				002218601930D111003786EA /* PANAMA.gif */,
+				002218611930D111003786EA /* start.gif */,
+				002218621930D111003786EA /* start.jpg */,
+				002218631930D111003786EA /* Thumbs.db */,
+				002218641930D111003786EA /* V2.gif */,
+				002218651930D111003786EA /* V2.jpg */,
+				002218661930D111003786EA /* v_korobke.jpg */,
+				002218671930D111003786EA /* v_shapke1.gif */,
+				002218681930D111003786EA /* v_shapke2.gif */,
+				002218691930D111003786EA /* v_shapke3.gif */,
+				0022186A1930D111003786EA /* v_shapke4.gif */,
+				0022186B1930D111003786EA /* v_shapke5.gif */,
+				0022186C1930D111003786EA /* v_shapke6.gif */,
+				0022186D1930D111003786EA /* v_shapke7.gif */,
+				0022186E1930D111003786EA /* Копия 3b_2.jpg */,
+				0022186F1930D111003786EA /* птица 20.JPG */,
+				002218701930D111003786EA /* птица 21.JPG */,
+				002218711930D111003786EA /* птица 22.JPG */,
+				002218721930D111003786EA /* птица 23.JPG */,
+				002218731930D111003786EA /* птица 24.JPG */,
+				002218741930D111003786EA /* птица 25.JPG */,
+				002218751930D111003786EA /* птица 26.JPG */,
+				002218761930D111003786EA /* птица 27.JPG */,
+				002218771930D111003786EA /* птица 28.JPG */,
+				002218781930D111003786EA /* птица 29.JPG */,
+				002218791930D111003786EA /* птица 30.JPG */,
+				0022187A1930D111003786EA /* птица 31.JPG */,
+				0022187B1930D111003786EA /* птица 33.JPG */,
+				0022187C1930D111003786EA /* Птица Киви 01.JPG */,
+				0022187D1930D111003786EA /* Птица Киви 02 без фона.gif */,
+				0022187E1930D111003786EA /* Птица Киви 02.JPG */,
+				0022187F1930D111003786EA /* Птица Киви 03.JPG */,
+				002218801930D111003786EA /* Птица Киви 04.JPG */,
+				002218811930D111003786EA /* Птица Киви 05.jpg */,
+				002218821930D111003786EA /* Птица Киви 06.jpg */,
+				002218831930D111003786EA /* Птица Киви 07.jpg */,
+				002218841930D111003786EA /* Птица Киви 08.gif */,
+				002218851930D111003786EA /* Птица Киви 08.jpg */,
+				002218861930D111003786EA /* Птица Киви 09.jpg */,
+				002218871930D111003786EA /* Птица Киви 10.gif */,
+				002218881930D111003786EA /* Птица Киви 10.jpg */,
+				002218891930D111003786EA /* Птица Киви 11.jpg */,
+				0022188A1930D111003786EA /* Птица Киви 12.jpg */,
+				0022188B1930D111003786EA /* Птица Киви 13.jpg */,
+			);
+			path = "плоские птицы";
+			sourceTree = "<group>";
+		};
+		002219171930D134003786EA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				002219181930D134003786EA /* Apple.png */,
+				002219191930D134003786EA /* bg.png */,
+				0022191A1930D134003786EA /* BirdDad.png */,
+				0022191B1930D134003786EA /* BirdMom.png */,
+				0022191C1930D134003786EA /* BirdSmallFat.png */,
+				0022191D1930D134003786EA /* BirdSmallNorm.png */,
+				0022191E1930D134003786EA /* BirdSmallThin.png */,
+			);
+			name = Images;
+			path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/C7528981-8FFF-453C-985A-72F8834F419E/Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +709,156 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002218F01930D111003786EA /* V2.jpg in Resources */,
+				002218C81930D111003786EA /* 26.jpg in Resources */,
+				002218981930D111003786EA /* bezopasnost.jpg in Resources */,
+				002218E61930D111003786EA /* 545.png in Resources */,
+				002218C41930D111003786EA /* 22.jpg in Resources */,
+				002218A31930D111003786EA /* restoran3.jpg in Resources */,
+				002218EE1930D111003786EA /* Thumbs.db in Resources */,
+				002218F91930D111003786EA /* Копия 3b_2.jpg in Resources */,
+				002219131930D111003786EA /* Птица Киви 10.jpg in Resources */,
+				0022189D1930D111003786EA /* kiwi_OK.jpg in Resources */,
+				002218FC1930D111003786EA /* птица 22.JPG in Resources */,
+				002219111930D111003786EA /* Птица Киви 09.jpg in Resources */,
+				002218F71930D111003786EA /* v_shapke6.gif in Resources */,
+				002218F51930D111003786EA /* v_shapke4.gif in Resources */,
+				002219071930D111003786EA /* Птица Киви 01.JPG in Resources */,
+				002218E71930D111003786EA /* 67.png in Resources */,
+				002218A61930D111003786EA /* sinema.jpg in Resources */,
+				002218941930D111003786EA /* 91.jpg in Resources */,
+				002218B41930D111003786EA /* птичка 5.jpg in Resources */,
+				002218CA1930D111003786EA /* 3.jpg in Resources */,
+				002218E41930D111003786EA /* 4a2.jpg in Resources */,
+				0022190B1930D111003786EA /* Птица Киви 04.JPG in Resources */,
+				002218FB1930D111003786EA /* птица 21.JPG in Resources */,
+				002218B31930D111003786EA /* птичка 4.jpg in Resources */,
+				002218BC1930D111003786EA /* 15.jpg in Resources */,
+				002218A91930D111003786EA /* s_egednevnikom.jpg in Resources */,
+				002218CF1930D111003786EA /* 8.jpg in Resources */,
+				002218FE1930D111003786EA /* птица 24.JPG in Resources */,
+				002219211930D134003786EA /* BirdDad.png in Resources */,
+				002218DA1930D111003786EA /* 3.gif in Resources */,
+				002218961930D111003786EA /* bank.jpg in Resources */,
+				002218901930D111003786EA /* 28.jpg in Resources */,
+				002218CD1930D111003786EA /* 6.jpg in Resources */,
+				002218FD1930D111003786EA /* птица 23.JPG in Resources */,
+				0022189C1930D111003786EA /* football-m.jpg in Resources */,
+				0022188C1930D111003786EA /* 22.jpg in Resources */,
+				002219081930D111003786EA /* Птица Киви 02 без фона.gif in Resources */,
+				002218D11930D111003786EA /* Thumbs.db in Resources */,
+				002218E51930D111003786EA /* 4b1.jpg in Resources */,
+				002218B81930D111003786EA /* 11.jpg in Resources */,
+				002218EF1930D111003786EA /* V2.gif in Resources */,
+				002218D81930D111003786EA /* 2b_1.jpg in Resources */,
+				002219051930D111003786EA /* птица 31.JPG in Resources */,
+				002218AE1930D111003786EA /* s_terminalom.jpg in Resources */,
+				002219041930D111003786EA /* птица 30.JPG in Resources */,
+				002218BE1930D111003786EA /* 17.jpg in Resources */,
+				002218B11930D111003786EA /* птичка 2.jpg in Resources */,
 				002217DA1930A722003786EA /* Main_iPad.storyboard in Resources */,
+				002218DB1930D111003786EA /* 3b_2.gif in Resources */,
+				002219161930D111003786EA /* Птица Киви 13.jpg in Resources */,
+				002218DE1930D111003786EA /* 3q2.gif in Resources */,
+				002218B51930D111003786EA /* 1 Без фона.gif in Resources */,
+				002218D61930D111003786EA /* 2.gif in Resources */,
+				002218F81930D111003786EA /* v_shapke7.gif in Resources */,
+				002218B61930D111003786EA /* 1.jpg in Resources */,
+				002218931930D111003786EA /* 55.jpg in Resources */,
+				0022190C1930D111003786EA /* Птица Киви 05.jpg in Resources */,
+				002218E01930D111003786EA /* 3_2.gif in Resources */,
+				002218CB1930D111003786EA /* 4.jpg in Resources */,
+				002218A81930D111003786EA /* s_bomboi.jpg in Resources */,
+				002218AB1930D111003786EA /* s_kvadratami.jpg in Resources */,
+				002219101930D111003786EA /* Птица Киви 08.jpg in Resources */,
+				002218D51930D111003786EA /* 1.gif in Resources */,
+				0022188D1930D111003786EA /* 23.jpg in Resources */,
+				002218BA1930D111003786EA /* 13.jpg in Resources */,
+				002218D41930D111003786EA /* 0_о.JPG in Resources */,
+				0022190D1930D111003786EA /* Птица Киви 06.jpg in Resources */,
+				002218C51930D111003786EA /* 23.jpg in Resources */,
+				002218E21930D111003786EA /* 4.gif in Resources */,
+				002218FF1930D111003786EA /* птица 25.JPG in Resources */,
+				002218D21930D111003786EA /* _thumb_87947.png in Resources */,
+				002218AF1930D111003786EA /* Thumbs.db in Resources */,
+				002218C71930D111003786EA /* 25.jpg in Resources */,
+				002218BF1930D111003786EA /* 18.png in Resources */,
+				0022190A1930D111003786EA /* Птица Киви 03.JPG in Resources */,
+				002218B71930D111003786EA /* 10.jpg in Resources */,
+				0022189E1930D111003786EA /* medik.png in Resources */,
+				002218C91930D111003786EA /* 28.jpg in Resources */,
+				002219031930D111003786EA /* птица 29.JPG in Resources */,
+				002218C21930D111003786EA /* 20.jpg in Resources */,
+				002218BB1930D111003786EA /* 14.jpg in Resources */,
+				002219201930D134003786EA /* bg.png in Resources */,
+				002219141930D111003786EA /* Птица Киви 11.jpg in Resources */,
+				002219251930D134003786EA /* BirdSmallThin.png in Resources */,
 				002217DF1930A722003786EA /* Images.xcassets in Resources */,
+				002218E81930D111003786EA /* dop_3.gif in Resources */,
+				002219021930D111003786EA /* птица 28.JPG in Resources */,
+				002218F31930D111003786EA /* v_shapke2.gif in Resources */,
+				002219241930D134003786EA /* BirdSmallNorm.png in Resources */,
+				002218E91930D111003786EA /* dop_3.jpg in Resources */,
+				002218911930D111003786EA /* 37.jpg in Resources */,
+				002218A71930D111003786EA /* sinema123.jpg in Resources */,
+				002218D71930D111003786EA /* 2b_1.gif in Resources */,
+				002218EC1930D111003786EA /* start.gif in Resources */,
+				002218D01930D111003786EA /* 9.jpg in Resources */,
+				002218951930D111003786EA /* avto4.jpg in Resources */,
+				002218CC1930D111003786EA /* 5.jpg in Resources */,
+				002218EB1930D111003786EA /* PANAMA.gif in Resources */,
+				002219231930D134003786EA /* BirdSmallFat.png in Resources */,
+				0022189B1930D111003786EA /* cinema4.jpg in Resources */,
+				002219151930D111003786EA /* Птица Киви 12.jpg in Resources */,
+				002218DD1930D111003786EA /* 3q.gif in Resources */,
+				002218DF1930D111003786EA /* 3q3.gif in Resources */,
+				002218B91930D111003786EA /* 12.jpg in Resources */,
+				002218BD1930D111003786EA /* 16.jpg in Resources */,
+				002218F11930D111003786EA /* v_korobke.jpg in Resources */,
+				002218A51930D111003786EA /* sd6_QIWI(КИВИ).png in Resources */,
+				0022189F1930D111003786EA /* prodavec.jpg in Resources */,
+				002218C31930D111003786EA /* 21.jpg in Resources */,
 				002217D71930A722003786EA /* Main_iPhone.storyboard in Resources */,
+				002218DC1930D111003786EA /* 3b_2.jpg in Resources */,
+				002218AA1930D111003786EA /* s_globusom.jpg in Resources */,
+				0022188F1930D111003786EA /* 26.jpg in Resources */,
+				0022189A1930D111003786EA /* cinema3.jpg in Resources */,
+				002218D31930D111003786EA /* 0_о - копия.JPG in Resources */,
+				002218921930D111003786EA /* 45.JPG in Resources */,
+				002218E11930D111003786EA /* 3_2.jpg in Resources */,
+				002219001930D111003786EA /* птица 26.JPG in Resources */,
+				002219011930D111003786EA /* птица 27.JPG in Resources */,
+				002218AC1930D111003786EA /* s_leikoi.jpg in Resources */,
+				0022190E1930D111003786EA /* Птица Киви 07.jpg in Resources */,
+				002218FA1930D111003786EA /* птица 20.JPG in Resources */,
+				002219121930D111003786EA /* Птица Киви 10.gif in Resources */,
+				002218991930D111003786EA /* buhgalter.jpg in Resources */,
+				002218C01930D111003786EA /* 19.jpg in Resources */,
 				002217CE1930A722003786EA /* InfoPlist.strings in Resources */,
+				002218971930D111003786EA /* banner_23February.jpg in Resources */,
+				0022188E1930D111003786EA /* 25.jpg in Resources */,
+				002218C11930D111003786EA /* 2.jpg in Resources */,
+				002218A21930D111003786EA /* rc.jpg in Resources */,
+				002218B21930D111003786EA /* птичка 3.jpg in Resources */,
+				0022191F1930D134003786EA /* Apple.png in Resources */,
+				002218EA1930D111003786EA /* kiwi_OK.gif in Resources */,
+				0022190F1930D111003786EA /* Птица Киви 08.gif in Resources */,
+				002218D91930D111003786EA /* 2_1.jpg in Resources */,
+				002218AD1930D111003786EA /* s_podarkom.jpg in Resources */,
+				002218ED1930D111003786EA /* start.jpg in Resources */,
+				002218C61930D111003786EA /* 24.jpg in Resources */,
+				002219221930D134003786EA /* BirdMom.png in Resources */,
+				002218E31930D111003786EA /* 4a2.gif in Resources */,
+				002218A11930D111003786EA /* ptica2.jpg in Resources */,
+				002218A41930D111003786EA /* restoran4.jpg in Resources */,
+				002219061930D111003786EA /* птица 33.JPG in Resources */,
+				002218F61930D111003786EA /* v_shapke5.gif in Resources */,
+				002218F21930D111003786EA /* v_shapke1.gif in Resources */,
+				002218A01930D111003786EA /* ptica.jpg in Resources */,
+				002218CE1930D111003786EA /* 7.jpg in Resources */,
+				002219091930D111003786EA /* Птица Киви 02.JPG in Resources */,
+				002218F41930D111003786EA /* v_shapke3.gif in Resources */,
+				002218B01930D111003786EA /* птичка 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +878,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				002217D01930A722003786EA /* main.m in Sources */,
+				002217FD1930BAE7003786EA /* ImgFallsViewController.m in Sources */,
 				002217D41930A722003786EA /* CTAppDelegate.m in Sources */,
-				002217DD1930A722003786EA /* CTViewController.m in Sources */,
+				002217DD1930A722003786EA /* GameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  CTViewController.h
+//  ImgFallsViewController.h
 //  Prototype1
 //
 //  Created by ]а on 24.05.14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CTViewController : UIViewController
+@interface ImgFallsViewController : UIViewController
 
 @end
