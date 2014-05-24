@@ -12,7 +12,7 @@
 
 @property (nonatomic) CGFloat xSpeed;
 @property (nonatomic) CGFloat ySpeed;
-@property (nonatomic) IBOutlet UIView *QWdadyView;
+@property (nonatomic) IBOutlet UIImageView *QWdadyView;
 @property (nonatomic) BOOL QWdadyViewOnScreen;
 @end
 
@@ -29,14 +29,20 @@ BOOL probability(double p) {
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    self.x_QWdady = -10;
-//    self.y_QWdady = -10;
-    self.xSpeed = .3;
-    self.ySpeed = 0;
-    QWdadyView = [[UIView alloc] initWithFrame:CGRectMake(0, 5, 100, 100)];
-    [self.view addSubview:QWdadyView ];
 
 	// Do any additional setup after loading the view, typically from a nib.
+    self.xSpeed = .3;
+    self.ySpeed = 0;
+    QWdadyView = [[UIImageView alloc] init];
+    [self.view addSubview:QWdadyView ];
+    UIImage *img = [UIImage imageNamed:@"3q_my.png"];
+    CGRect siz = QWdadyView.frame;
+    siz.size = img.size;
+    QWdadyView.frame = siz;
+    QWdadyView.image = img;
+    QWdadyView.center = (CGPoint) {5,10};
+//    QWdadyView.backgroundColor = [UIColor blueColor];
+
     NSTimer *timerQWRun = [NSTimer scheduledTimerWithTimeInterval:8 target:self selector: @selector(runnerSelector:) userInfo: nil repeats:YES];
 }
 
@@ -49,7 +55,7 @@ BOOL probability(double p) {
 - (void) runQWSelector:(NSTimer *)timer {
     double x_old = QWdadyView.center.x;
     double y_old = QWdadyView.center.y;
-    self.QWdadyViewOnScreen = (x_old<350) && (x_old>0);
+    self.QWdadyViewOnScreen = (x_old<330) && (x_old>0);
     double xSpeed = 0;
     double ySpeed = 0;
     if (self.QWdadyViewOnScreen) { xSpeed = self.xSpeed; }
@@ -60,11 +66,6 @@ BOOL probability(double p) {
 }
 
 - (void) runningQiWi {
-    NSInteger timeRun = 7;     //Falling time
-    QWdadyView.backgroundColor = [UIColor blueColor];
-//    [UIView animateWithDuration:timeRun animations:^void {
-//        QWdadyView.center = (CGPoint){0 , -15};
-//    }];
     NSTimer *timerRunnerQWdady = [NSTimer scheduledTimerWithTimeInterval:.01 target:self selector: @selector(runQWSelector:) userInfo: nil repeats:YES];
     NSTimer *timerBonusFall = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector: @selector(fallerSelector:) userInfo: nil repeats:YES];
     
@@ -81,10 +82,16 @@ BOOL probability(double p) {
 - (void) fallDown {
     NSInteger timeFall = 5;     //Falling time
     CGFloat x_start = QWdadyView.center.x;
-    CGFloat y_start = QWdadyView.center.y;
+    CGFloat y_start = QWdadyView.center.y+15;
     NSLog(@"x,y = %f %f", x_start,y_start);
-    UIView *fallView = [[UIView alloc] initWithFrame:CGRectMake(x_start-80, y_start, 20, 20)];
-    fallView.backgroundColor = [UIColor redColor];
+    UIImageView *fallView = [[UIImageView alloc] initWithFrame:CGRectMake(x_start, y_start, 20, 20)];
+    UIImage *img = [UIImage imageNamed:@"Apple.png"];
+    CGRect siz = QWdadyView.frame;
+    siz.size = img.size;
+    fallView.frame = siz;
+    fallView.image = img;
+    fallView.center = (CGPoint) {x_start,y_start};
+//    fallView.backgroundColor = [UIColor redColor];
     [UIView animateWithDuration:timeFall animations:^void {
         fallView.center = (CGPoint){x_start , 500};
     }];
