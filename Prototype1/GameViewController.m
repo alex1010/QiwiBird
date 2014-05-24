@@ -62,7 +62,7 @@ BOOL probability(double p) {
     double x_new = x_old+xSpeed;
     double y_new = y_old+ySpeed;
     QWdadyView.center= (CGPoint) {x_new , y_new};
-    NSLog(@"xNew,yNew = %f %f", x_new,y_new);
+//    NSLog(@"xNew,yNew = %f %f", x_new,y_new);
 }
 
 - (void) runningQiWi {
@@ -76,14 +76,17 @@ BOOL probability(double p) {
         
         [self runningQiWi];
     }
-    
+}
+
+- (void) bonusClick:(UIView *) View {
+    NSLog(@"button taped");
+    View.hidden = true;
 }
 
 - (void) fallDown {
     NSInteger timeFall = 5;     //Falling time
     CGFloat x_start = QWdadyView.center.x;
     CGFloat y_start = QWdadyView.center.y+15;
-    NSLog(@"x,y = %f %f", x_start,y_start);
     UIImageView *fallView = [[UIImageView alloc] initWithFrame:CGRectMake(x_start, y_start, 20, 20)];
     UIImage *img = [UIImage imageNamed:@"Apple.png"];
     CGRect siz = QWdadyView.frame;
@@ -91,11 +94,14 @@ BOOL probability(double p) {
     fallView.frame = siz;
     fallView.image = img;
     fallView.center = (CGPoint) {x_start,y_start};
-//    fallView.backgroundColor = [UIColor redColor];
+    UIButton* button=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [button addTarget:self action:@selector(bonusClick:) forControlEvents:UIControlEventTouchDown];
+    button.frame = siz;
     [UIView animateWithDuration:timeFall animations:^void {
         fallView.center = (CGPoint){x_start , 500};
     }];
     [self.view addSubview:fallView ];
+    [fallView addSubview:button];
 }
 
 - (void) fallerSelector:(NSTimer *)timer  {
