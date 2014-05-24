@@ -10,6 +10,7 @@
 
 @interface GameViewController ()
 
+
 @end
 
 BOOL probability(double p) {
@@ -25,42 +26,49 @@ BOOL probability(double p) {
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSTimer *timerRun = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector: @selector(runnerSelector:) userInfo: nil repeats:YES];
+    NSTimer *timerQWRun = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector: @selector(runnerSelector:) userInfo: nil repeats:YES];
 }
 
--(void) runnerSelector:(NSTimer *)timer {
-    if (probability(0.5)) {
-        [self runningQiWi];
-    }
-    
--(void) fallerSelector:(NSTimer *)timer {
-    if (probability(0.5)) {
-        [self fallDown];
-    }
-    
-//    [timer invalidate];
-//    [self performSelector:<#(SEL)#> withObject:<#(id)#> afterDelay:(NSTimeInterval)]
-    
-}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+
 - (void) runningQiWi {
-    NSTimer *timerFall = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector: @selector(fallerSelector:) userInfo: nil repeats:YES];
+    NSTimer *timerBonusFall = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector: @selector(fallerSelector:) userInfo: nil repeats:YES];
+    NSInteger timeFall = 10;     //Falling time
+    UIView *runView = [[UIView alloc] initWithFrame:CGRectMake(5, 300, 100, 100)];
+    runView.backgroundColor = [UIColor redColor];
+    [UIView animateWithDuration:timeFall animations:^void {
+        runView.center = (CGPoint){5 , 0};
+    }];
+    [self.view addSubview:runView ];
     
 }
 
-- (void) fallDown{
+- (void) runnerSelector:(NSTimer *)timer {
+    if (probability(0.4)) {
+        [self runningQiWi];
+    }
+    
+}
+
+- (void) fallDown {
     NSInteger timeFall = 10;     //Falling time
-    UIView *fallView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    UIView *fallView = [[UIView alloc] initWithFrame:CGRectMake(5, 0, 100, 100)];
     fallView.backgroundColor = [UIColor redColor];
     [UIView animateWithDuration:timeFall animations:^void {
         fallView.center = (CGPoint){200 , 500};
     }];
     [self.view addSubview:fallView ];
+}
+
+- (void) fallerSelector:(NSTimer *)timer {
+    if (probability(0.6)) {
+        [self fallDown];
+    }
 }
 
 @end
