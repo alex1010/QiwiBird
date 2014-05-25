@@ -36,7 +36,7 @@ BOOL probability(double p) {
 
 	// Do any additional setup after loading the view, typically from a nib.
     self.speedDir = 1;
-    self.xSpeed = .5;
+    self.xSpeed = .3;
     self.ySpeed = 0;
     self.x_DadStart = -15;
     self.y_DadStart = 25;
