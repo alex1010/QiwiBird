@@ -31,6 +31,8 @@ BOOL probability(double p) {
     [super viewDidLoad];
 
 	// Do any additional setup after loading the view, typically from a nib.
+    UIImageView *back = [[UIImageView alloc] initWithFrame:CGRectMake(-10, -10, 10, 10)];
+//    UIImage *img = [UIImage imageNamed:@"Apple.png"];
     self.xSpeed = .3;
     self.ySpeed = 0;
     QWdadyView = [[UIImageView alloc] init];
@@ -96,12 +98,13 @@ BOOL probability(double p) {
     fallView.center = (CGPoint) {x_start,y_start};
     UIButton* button=[UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button addTarget:self action:@selector(bonusClick:) forControlEvents:UIControlEventTouchDown];
-    button.frame = siz;
-    [UIView animateWithDuration:timeFall animations:^void {
-        fallView.center = (CGPoint){x_start , 500};
-    }];
-    [self.view addSubview:fallView ];
+    button.center = (CGPoint){0,0};
     [fallView addSubview:button];
+    [UIView animateWithDuration:timeFall delay:.01 options:UIViewAnimationOptionCurveEaseIn animations:^void {fallView.center = (CGPoint){x_start, 500};} completion:nil];
+//    [UIView animateWithDuration:timeFall animations:^void {
+//        fallView.center = (CGPoint){x_start , 500};
+//    }];
+    [self.view addSubview:fallView ];
 }
 
 - (void) fallerSelector:(NSTimer *)timer  {

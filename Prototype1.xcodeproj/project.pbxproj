@@ -25,6 +25,7 @@
 		724D49DF1931135200AADD71 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724D49DE1931135200AADD71 /* Main~ipad.storyboard */; };
 		724D4AFA1931434200AADD71 /* 3q_my.png in Resources */ = {isa = PBXBuildFile; fileRef = 724D4AF91931434200AADD71 /* 3q_my.png */; };
 		725C769C193146BF00C10295 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 725C769B193146BF00C10295 /* Apple.png */; };
+		72A6DEBF193189470055AB66 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A6DEBE193189470055AB66 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		724D49DE1931135200AADD71 /* Main~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main~ipad.storyboard"; sourceTree = "<group>"; };
 		724D4AF91931434200AADD71 /* 3q_my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3q_my.png; path = "Для презентаций/плоские птицы/3q_my.png"; sourceTree = "<group>"; };
 		725C769B193146BF00C10295 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Apple.png; path = Images/Apple.png; sourceTree = "<group>"; };
+		72A6DEBE193189470055AB66 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images/bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				002217C11930A722003786EA /* Products */,
 				724D4AF91931434200AADD71 /* 3q_my.png */,
 				725C769B193146BF00C10295 /* Apple.png */,
+				72A6DEBE193189470055AB66 /* bg.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +252,7 @@
 				724D49DF1931135200AADD71 /* Main~ipad.storyboard in Resources */,
 				724D4AFA1931434200AADD71 /* 3q_my.png in Resources */,
 				725C769C193146BF00C10295 /* Apple.png in Resources */,
+				72A6DEBF193189470055AB66 /* bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
