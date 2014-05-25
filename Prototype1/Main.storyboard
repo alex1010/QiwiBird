@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="HAk-Vr-9nJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="HAk-Vr-9nJ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Game View Controller-->
@@ -11,7 +13,19 @@
                     <view key="view" contentMode="scaleToFill" id="f9P-Q2-3Nc">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Ei-M0-zt7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4Ei-M0-zt7" secondAttribute="bottom" type="default" id="KG6-tu-EFB"/>
+                            <constraint firstItem="4Ei-M0-zt7" firstAttribute="top" secondItem="f9P-Q2-3Nc" secondAttribute="top" type="default" id="c1D-rn-nPA"/>
+                            <constraint firstAttribute="trailing" secondItem="4Ei-M0-zt7" secondAttribute="trailing" type="default" id="e0d-Zm-Wa2"/>
+                            <constraint firstItem="4Ei-M0-zt7" firstAttribute="leading" secondItem="f9P-Q2-3Nc" secondAttribute="leading" type="default" id="iag-6S-4fJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hU3-fB-3or" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19,6 +33,9 @@
             <point key="canvasLocation" x="300" y="-9"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg.png" width="640" height="960"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
