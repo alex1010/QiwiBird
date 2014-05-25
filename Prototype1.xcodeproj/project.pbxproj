@@ -26,6 +26,9 @@
 		724D4AFA1931434200AADD71 /* 3q_my.png in Resources */ = {isa = PBXBuildFile; fileRef = 724D4AF91931434200AADD71 /* 3q_my.png */; };
 		725C769C193146BF00C10295 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 725C769B193146BF00C10295 /* Apple.png */; };
 		72A6DEBF193189470055AB66 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A6DEBE193189470055AB66 /* bg.png */; };
+		72A6DEC319319E570055AB66 /* birdsmallfat.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A6DEC019319E570055AB66 /* birdsmallfat.png */; };
+		72A6DEC419319E570055AB66 /* birdsmallnorm.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A6DEC119319E570055AB66 /* birdsmallnorm.png */; };
+		72A6DEC519319E570055AB66 /* birdsmallthin.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A6DEC219319E570055AB66 /* birdsmallthin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		724D4AF91931434200AADD71 /* 3q_my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3q_my.png; path = "Для презентаций/плоские птицы/3q_my.png"; sourceTree = "<group>"; };
 		725C769B193146BF00C10295 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Apple.png; path = Images/Apple.png; sourceTree = "<group>"; };
 		72A6DEBE193189470055AB66 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images/bg.png; sourceTree = "<group>"; };
+		72A6DEC019319E570055AB66 /* birdsmallfat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = birdsmallfat.png; path = Scaled/birdsmallfat.png; sourceTree = "<group>"; };
+		72A6DEC119319E570055AB66 /* birdsmallnorm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = birdsmallnorm.png; path = Scaled/birdsmallnorm.png; sourceTree = "<group>"; };
+		72A6DEC219319E570055AB66 /* birdsmallthin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = birdsmallthin.png; path = Scaled/birdsmallthin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				724D4AF91931434200AADD71 /* 3q_my.png */,
 				725C769B193146BF00C10295 /* Apple.png */,
 				72A6DEBE193189470055AB66 /* bg.png */,
+				72A6DEC019319E570055AB66 /* birdsmallfat.png */,
+				72A6DEC119319E570055AB66 /* birdsmallnorm.png */,
+				72A6DEC219319E570055AB66 /* birdsmallthin.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,6 +262,9 @@
 				724D4AFA1931434200AADD71 /* 3q_my.png in Resources */,
 				725C769C193146BF00C10295 /* Apple.png in Resources */,
 				72A6DEBF193189470055AB66 /* bg.png in Resources */,
+				72A6DEC319319E570055AB66 /* birdsmallfat.png in Resources */,
+				72A6DEC419319E570055AB66 /* birdsmallnorm.png in Resources */,
+				72A6DEC519319E570055AB66 /* birdsmallthin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

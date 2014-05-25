@@ -31,8 +31,6 @@ BOOL probability(double p) {
     [super viewDidLoad];
 
 	// Do any additional setup after loading the view, typically from a nib.
-    UIImageView *back = [[UIImageView alloc] initWithFrame:CGRectMake(-10, -10, 10, 10)];
-//    UIImage *img = [UIImage imageNamed:@"Apple.png"];
     self.xSpeed = .3;
     self.ySpeed = 0;
     QWdadyView = [[UIImageView alloc] init];
@@ -42,7 +40,7 @@ BOOL probability(double p) {
     siz.size = img.size;
     QWdadyView.frame = siz;
     QWdadyView.image = img;
-    QWdadyView.center = (CGPoint) {5,10};
+    QWdadyView.center = (CGPoint) {5,22};
 //    QWdadyView.backgroundColor = [UIColor blueColor];
 
     NSTimer *timerQWRun = [NSTimer scheduledTimerWithTimeInterval:8 target:self selector: @selector(runnerSelector:) userInfo: nil repeats:YES];
@@ -108,7 +106,7 @@ BOOL probability(double p) {
 }
 
 - (void) fallerSelector:(NSTimer *)timer  {
-    if ((probability(1.1)) && self.QWdadyViewOnScreen ) {
+    if ((probability(0.6)) && self.QWdadyViewOnScreen ) {
         [self fallDown];
     }
 }
