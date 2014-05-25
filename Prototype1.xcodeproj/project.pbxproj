@@ -20,7 +20,6 @@
 		002217E81930A723003786EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002217C71930A722003786EA /* UIKit.framework */; };
 		002217F01930A723003786EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002217EE1930A723003786EA /* InfoPlist.strings */; };
 		002217F21930A723003786EA /* Prototype1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217F11930A723003786EA /* Prototype1Tests.m */; };
-		002217FD1930BAE7003786EA /* ImgFallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002217FC1930BAE7003786EA /* ImgFallsViewController.m */; };
 		724D49DD1931134300AADD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724D49DC1931134300AADD71 /* Main.storyboard */; };
 		724D49DF1931135200AADD71 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724D49DE1931135200AADD71 /* Main~ipad.storyboard */; };
 		724D4AFA1931434200AADD71 /* 3q_my.png in Resources */ = {isa = PBXBuildFile; fileRef = 724D4AF91931434200AADD71 /* 3q_my.png */; };
@@ -60,8 +59,6 @@
 		002217ED1930A723003786EA /* Prototype1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prototype1Tests-Info.plist"; sourceTree = "<group>"; };
 		002217EF1930A723003786EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		002217F11930A723003786EA /* Prototype1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype1Tests.m; sourceTree = "<group>"; };
-		002217FB1930BAE6003786EA /* ImgFallsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgFallsViewController.h; sourceTree = "<group>"; };
-		002217FC1930BAE7003786EA /* ImgFallsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgFallsViewController.m; sourceTree = "<group>"; };
 		724D49DC1931134300AADD71 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		724D49DE1931135200AADD71 /* Main~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main~ipad.storyboard"; sourceTree = "<group>"; };
 		724D4AF91931434200AADD71 /* 3q_my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3q_my.png; path = "Для презентаций/плоские птицы/3q_my.png"; sourceTree = "<group>"; };
@@ -135,8 +132,6 @@
 		002217C91930A722003786EA /* Prototype1 */ = {
 			isa = PBXGroup;
 			children = (
-				002217FB1930BAE6003786EA /* ImgFallsViewController.h */,
-				002217FC1930BAE7003786EA /* ImgFallsViewController.m */,
 				002217D21930A722003786EA /* CTAppDelegate.h */,
 				724D49DC1931134300AADD71 /* Main.storyboard */,
 				724D49DE1931135200AADD71 /* Main~ipad.storyboard */,
@@ -284,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				002217D01930A722003786EA /* main.m in Sources */,
-				002217FD1930BAE7003786EA /* ImgFallsViewController.m in Sources */,
 				002217D41930A722003786EA /* CTAppDelegate.m in Sources */,
 				002217DD1930A722003786EA /* GameViewController.m in Sources */,
 			);

@@ -14,6 +14,7 @@
 @property (nonatomic) CGFloat ySpeed;
 @property (nonatomic) IBOutlet UIImageView *QWdadyView;
 @property (nonatomic) BOOL QWdadyViewOnScreen;
+@property (nonatomic) NSArray BonusArray(1);
 @end
 
 BOOL probability(double p) {
